@@ -1,0 +1,5 @@
+streamlit
+google-genai
+pyPDF2
+python-dotenv
+sentenct-transformers
