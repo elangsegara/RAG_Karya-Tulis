@@ -1,3 +1,4 @@
+# Format Python code here
 import io
 
 import pandas as pd
@@ -108,7 +109,7 @@ if upload_file:
                 return_source_documents=True,
             )
 
-            #Creating session state variables to store vectordb, qa_chain, pdf_text, last_uploaded_file, doc_summary, keywords to avoid reprocessing
+            # Creating session state variables to store vectordb, qa_chain, pdf_text, last_uploaded_file, doc_summary, keywords to avoid reprocessing
 
             st.session_state["vectordb"] = vectordb
             st.session_state["qa_chain"] = qa_chain
